@@ -1,0 +1,5 @@
+D:\SoSed\Wärtsilä\TextFileApp\TextFileApp\bin\Release\net8.0-windows\publish\TextFileApp.exe
+D:\SoSed\Wärtsilä\TextFileApp\TextFileApp\bin\Release\net8.0-windows\publish\TextFileApp.dll
+D:\SoSed\Wärtsilä\TextFileApp\TextFileApp\bin\Release\net8.0-windows\publish\TextFileApp.deps.json
+D:\SoSed\Wärtsilä\TextFileApp\TextFileApp\bin\Release\net8.0-windows\publish\TextFileApp.runtimeconfig.json
+D:\SoSed\Wärtsilä\TextFileApp\TextFileApp\bin\Release\net8.0-windows\publish\TextFileApp.pdb

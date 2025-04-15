@@ -1,0 +1,26 @@
+﻿<Window x:Class="TextFileApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TextFileApp"
+        mc:Ignorable="d"
+        Title="Text File App" Height="350" Width="500">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <Label Grid.Row="0" Content="Write text here:"/>
+        <TextBox x:Name="TextBox_Write" Grid.Row="1" AcceptsReturn="True" VerticalScrollBarVisibility="Auto"/>
+
+        <Label Grid.Row="2" Content="Reading text (updates every 5 seconds):"/>
+        <TextBox x:Name="TextBox_Read" Grid.Row="3" IsReadOnly="True" VerticalScrollBarVisibility="Auto"/>
+
+        <Button x:Name="WriteToFile" Grid.Row="4" Content="Write to File" Margin="0,10,0,0" Height="30" Click="WriteToFile_Click"/>
+    </Grid>
+</Window>
